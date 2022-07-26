@@ -19,8 +19,8 @@ The tasks below focus on the features of Quarto we've been covering, but if you 
    - centered
    - with a caption and alt text
    - links to 
-4. Create two additional data visualizations and place them side-by-side on the same line of the output document. Additionally,
-   - add captions to each and caption to the whole figure.
+4. Create two additional data visualizations and place them side-by-side on the same line of the output document. This is similar to how you laid out your figures in exercise three but passes many of those same options via the hashpipe. Please:
+   - add captions to each subfigure and caption to the whole figure.
    - add references to all three (the sub figures and the whole figure) in a paragraph of text that follows the figure.
 5. Create one more plot and move into into the right margin.
 6. The HTML format has several features that allow users to interact with code. Read about them (<https://quarto.org/docs/output-formats/html-code.html>) then experiment by adding them to your document (code folding could make sense here).
