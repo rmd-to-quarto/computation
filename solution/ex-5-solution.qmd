@@ -8,6 +8,9 @@ execute:
   echo: true
   warning: false
   df-print: paged
+params:
+  n_penguins: 12
+  
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida cum sociis natoque penatibus et magnis dis parturient. Sit amet dictum sit amet justo donec. Sed nisi lacus sed viverra. Arcu ac tortor dignissim convallis aenean et. Ipsum a arcu cursus vitae congue mauris. Elit ut aliquam purus sit amet luctus. Nunc scelerisque viverra mauris in aliquam sem fringilla. Vitae justo eget magna fermentum iaculis. Tincidunt augue interdum velit euismod in pellentesque massa placerat. Amet porttitor eget dolor morbi non. Elementum tempus egestas sed sed risus. In dictum non consectetur a erat. Risus at ultrices mi tempus imperdiet nulla malesuada. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra.
@@ -16,7 +19,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 library(tidyverse)
 library(palmerpenguins)
 penguins %>%
-  sample_n(8)
+  sample_n(params$n_penguins)
 ```
 
 ```{r}
